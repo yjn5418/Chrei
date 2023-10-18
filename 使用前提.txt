@@ -1,0 +1,21 @@
+需要安装一下三个库才能运行，其他的库都是自带的
+cv2库
+pip install -i https://pypi.tuna.tsinghua.edu.cn/simple opencv-python
+pip install -i https://pypi.tuna.tsinghua.edu.cn/simple opencv-contrib-python==3.4.11.45
+pillow库
+pip install pillow
+
+
+drill_img文件夹 是存放需要录入的样本图片，使用image_text.py训练
+face_data文件夹 是存放训练后的图片，按User.name.id.jpg方式存放
+haarshare文件夹 是存放各种分类器
+trainner文件夹  是存放训练完成的人脸模型
+ttc文件夹       是存放字体文件
+
+face_text.py   视频录入样本
+image_text.py  图片录入样本
+face_discern.py训练样本图片，形成人脸模型
+face_see.py    开始使用人脸验证
+main_GUI.py    GUI界面整合，简易操作
+
+user_name.txt  存放样本名信息
